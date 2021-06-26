@@ -1,0 +1,63 @@
+.SearchPlaces {
+  background: #333333;
+  height: 306px;
+
+  .dotted_line {
+    width: 872px;
+    opacity: 0.5;
+    margin: -330px auto 0;
+  }
+
+  span {
+    display: block;
+    text-align: center;
+    margin-top: 107px;
+    margin-bottom: 20px;
+  }
+
+  .icon-search {
+    cursor: pointer;
+    font-size: 70px;
+    color: #5373fd;
+  }
+
+  .icon-check-circle {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 70px;
+    color: #ff6363;
+  }
+
+  .icon-thumbs-up {
+    cursor: pointer;
+    font-size: 70px;
+    color: #00a2ff;
+  }
+  .icon-search:hover {
+    color: #022ef0;
+  }
+  .icon-check-circle:hover {
+    color: #f80000;
+  }
+  .icon-thumbs-up:hover {
+    color: #0026ff;
+  }
+  p {
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #ffffff;
+  }
+  @media (max-width: 767.98px) {
+    .dotted_line {
+      display: none;
+    }
+  }
+}

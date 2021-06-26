@@ -1,0 +1,125 @@
+header {
+  background: url("../img/HeaderBackground.png") no-repeat;
+  height: 960px;
+  padding-top: 295px;
+  padding-bottom: 170px;
+
+  h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  h1:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
+      0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  p {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.31em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    left: calc(50% - 345px / 2 + 0.5px);
+  }
+  .search {
+    max-width: 100%;
+  }
+  input[type="search"] {
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    position: relative;
+
+    padding-left: 36px;
+    width: 647px;
+    height: 60px;
+    ::placeholder {
+      left: calc(50% - 277px / 2 - 148.5px);
+      font-family: "Josefin Sans", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.3em;
+      color: #999999;
+    }
+  }
+  @media (max-width: 767.98px) {
+    input[type="search"] {
+      width: 540px;
+    }
+  }
+  input:focus {
+    border-left: 4px solid #ad2be0;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .header_button {
+    position: absolute;
+    margin-top: -56px;
+    width: 139px;
+    height: 52px;
+    left: calc(50% - 139px / 2 + 249.5px);
+    border: 0;
+    background: #5373fd;
+
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  @media (max-width: 767.98px) {
+    .header_button {
+      left: calc(41% - 139px / 2 + 249.5px);
+    }
+  }
+  .header_button:hover {
+    color: brown;
+    border-radius: 50%;
+  }
+
+  .scroll {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+  }
+  .scroll:hover {
+    font-size: 22px;
+  }
+  .buttons {
+    text-align: center;
+    margin-top: 250px;
+  }
+  .icon-chevron-down {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+}

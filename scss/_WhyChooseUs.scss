@@ -1,0 +1,120 @@
+* {
+  transition: all 0.3s ease-in;
+}
+
+.WhyChooseUs {
+  padding: 200px 0 130px;
+  background: url("../img/WhyBackground.png") no-repeat;
+
+  @media (max-width: 991.98px) {
+    .reverse {
+      order: 1;
+    }
+  }
+  h2 {
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 150px 0 24px;
+  }
+  @media (max-width: 1199.98px) {
+    h2 {
+      margin-top: 30px;
+      text-align: center;
+    }
+  }
+  p {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+  a {
+    text-decoration: none;
+    width: 213px;
+    height: 60px;
+    background: #5373fd;
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 20px 32px;
+  }
+
+  .WhyChooseUs_button {
+    margin: 50px 0 190px;
+  }
+  @media (max-width: 1199.98px) {
+    .WhyChooseUs_button {
+      text-align: center;
+    }
+  }
+  .first {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .second {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+  }
+  @media (max-width: 991.98px) {
+    .second {
+      margin-top: 0;
+    }
+  }
+  @media (max-width: 1199.98px) {
+    .second {
+      justify-content: flex-start;
+    }
+  }
+  .morph img {
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+  }
+  .morph img:hover {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  @media (max-width: 575.98px) {
+    .morph img {
+      display: none;
+    }
+  }
+  a {
+    background-image: linear-gradient(
+      to top,
+      rgba(8, 31, 241, 0.801) 50%,
+      transparent 50%
+    );
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 0.5s ease-in-out;
+    color: #ffffff;
+  }
+
+  a:hover {
+    background-position: bottom;
+  }
+  img {
+    max-width: 100%;
+  }
+}

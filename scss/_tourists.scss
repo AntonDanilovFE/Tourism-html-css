@@ -1,0 +1,76 @@
+.tourists {
+  background: url("../img/BG\ \(2\).png") no-repeat;
+
+  h2 {
+    margin-bottom: 60px;
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-top: 140px;
+  }
+  @media (max-width: 991.98px) {
+    h2 {
+      margin-top: 50px;
+    }
+  }
+  .wrapper {
+    height: 270px;
+    margin: 0;
+    max-width: 100%;
+    background: #333333;
+  }
+  @media (max-width: 991.98px) {
+    .wrapper {
+      margin-top: -5px;
+      margin-bottom: 70px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .wrapper {
+      height: 320px;
+    }
+  }
+  h4 {
+    margin: 48px 0 0 60px;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  p {
+    margin-left: 60px;
+    margin-bottom: 35px;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+  img {
+    height: 270px;
+    max-width: 100%;
+    margin-bottom: 180px;
+  }
+  @media (max-width: 991.98px) {
+    img {
+      width: 720px;
+      height: 100%;
+      margin-bottom: 0;
+    }
+  }
+  .icon-quote-left {
+    color: #5373fd;
+  }
+}
